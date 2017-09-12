@@ -1,0 +1,10 @@
+ <ion-fab top left class="mainmenu" >
+    <button ion-fab class="tabs" color="light" (click)="goHome()"><ion-icon name="close"></ion-icon></button>
+  </ion-fab>
+<div style="margin-top: 86px;">
+    <ion-list>
+  <button ion-item *ngFor="let item of userInfo">
+    {{ item }}
+  </button>  
+</ion-list>
+  </div>

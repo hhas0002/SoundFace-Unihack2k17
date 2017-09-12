@@ -1,0 +1,65 @@
+page-playlist {
+
+    html, body, ion-app, ion-content, ion-page, .nav-decor {
+        background-color: navy;
+        background: -webkit-linear-gradient(black, navy);
+        background: -moz-linear-gradient(black, navy);
+        background: -o-linear-gradient(black, navy);
+        background: linear-gradient(black, navy);
+    }
+
+    .custom-icon {
+        color : purple;
+    }
+    .image-icon {
+        color: red;
+    }
+    .reaction{
+        position: absolute;
+        left: 0px;
+        top: 150px;
+    }
+    .buttonok{
+        left: 100px;
+        top:250px;
+    }
+
+    .emotion-card {
+        background-color: black;
+        background: linear-gradient(to bottom, lightgray, gray);
+        text-align: center;
+    }
+
+    .emotion-card-bg {
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+    }
+
+    .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: normal;
+        color: #fff;
+        padding: 0;
+        margin: auto;
+    }
+
+    .mood-title {
+        font-size: 4em;
+        font-weight: thin;
+        color: white;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.viewscope {
+    z-index: -10;
+    position: static;
+}

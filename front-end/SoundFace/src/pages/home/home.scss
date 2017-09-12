@@ -1,0 +1,36 @@
+page-home {
+
+    .custom-icon {
+        color : purple;
+    }
+    .customnew-icon{
+        color: black;
+    }
+    .image-icon {
+        color: red;
+    }
+    .reaction{
+        position: absolute;
+        left: 0px;
+        top: 150px;
+    }
+    .buttonok{
+        left: 100px;
+        top:250px;
+    }
+
+    #overlay {
+        z-index: 10;
+        position: relative;
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.viewscope {
+    z-index: -10;
+    position: static;
+}
